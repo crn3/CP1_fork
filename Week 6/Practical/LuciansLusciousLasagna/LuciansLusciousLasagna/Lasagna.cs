@@ -69,7 +69,7 @@ namespace LuciansLusciousLasagna
         {
             // TODO: implement the 'ElapsedTimeInMinutes()' method
             //throw new NotImplementedException("Please implement the ElapsedTimeInMinutes() method");
-            return layers*2 + minutesInOven;
+            return PreparationTimeInMinutes(layers) + minutesInOven;
         }
     }
 }
